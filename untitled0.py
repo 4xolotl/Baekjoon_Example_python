@@ -1,8 +1,9 @@
 
 while (True):
-    m = int(input("1: 본문\n2: 어휘"))
+    print()
+    m = int(input("1: 본문\n2: 어휘\n"))
     if m==1:
-        a = input("입력: ")
+        a = input("입력: \n")
         print("====================")
         
         for i in range(0, len(a)):
@@ -13,7 +14,7 @@ while (True):
                 
         
     elif m==2:
-        a = input("입력: ")
+        a = input("입력: \n")
 
         print("====================")
 
