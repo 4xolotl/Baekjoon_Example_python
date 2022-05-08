@@ -1,7 +1,3 @@
-t = int(input())
-time = 0
-process = []
-
 def requirement_list(r, x, y):
     r[y-1].append(x)
     return r
@@ -44,6 +40,10 @@ def min_time(r):
         if r[ii]:
             time += cost[max(r[i])]
     return time+cost[w]
+
+t = int(input())
+time = 0
+process = []
 
 for i in range(t):
     r = []
